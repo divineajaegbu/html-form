@@ -1,0 +1,67 @@
+h1 {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+
+/*forms*/
+
+form p {
+    font-size: 22px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"] {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 8px 100px 8px 0;
+}
+
+form input[type="number"] {
+    margin-right: 200px;
+}
+
+form select {
+    transform: translate(-185px);
+    padding: 14px 80px 14px 0;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+form label[for="place"] {
+    margin-right: 220px;
+}
+
+form article {
+    transform: translate(-85px, -28px);
+}
+
+form label[for="height"] {
+    margin-right: 500px;
+}
+
+form {
+    text-align: center;
+}
+
+form textarea {
+    padding: 10px 100px 10px 0;
+    margin-right: 180px;
+}
+
+form input:not(form select) {
+    margin-left: 30px;
+}
+
+form .selector {
+    margin-right: 510px;
+}
+
+form .checkbox {
+    transform: translate(-100px, -50px);
+    -webkit-transform: translate(-100px, -50px);
+    -moz-transform: translate(-100px, -50px);
+    -ms-transform: translate(-100px, -50px);
+    -o-transform: translate(-100px, -50px);
+}

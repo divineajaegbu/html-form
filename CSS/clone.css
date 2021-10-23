@@ -1,0 +1,182 @@
+body {
+    background-color: rgba(185, 225, 250, 0.952);
+    overflow: scroll;
+}
+
+
+/*LINKS*/
+
+.cube-outline {
+    font-size: 55px;
+    color: white;
+}
+
+.vibes-form {
+    margin-left: 60px;
+    margin-top: -55px;
+    color: white;
+}
+
+.laurence {
+    margin-left: 60px;
+    margin-top: -22px;
+    font-size: 20px;
+    color: rgb(93, 109, 109);
+}
+
+span {
+    margin-left: 10px;
+    background-color: #1ce462;
+    padding-right: 5px;
+    color: black;
+    font-size: small;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+
+/*MAIN-LINKS*/
+
+.main-links ion-icon {
+    color: white;
+    font-size: 20px;
+    background-color: rgb(55, 80, 80);
+    padding: 0 15px 10px 15px;
+    border-radius: 5px;
+}
+
+a:not(.sign-up) {
+    text-decoration: none;
+    font-size: 18px;
+    background-color: rgb(75, 83, 83);
+    padding: 10px 15px 0 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: max-content;
+    color: white;
+}
+
+.sign-up {
+    background-color: rgb(35, 149, 35);
+    padding: 12px 15px 10px 15px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.sign-up:hover {
+    background-color: #34a853;
+    color: white;
+}
+
+a:not(.sign-up):hover,
+ion-icon:hover {
+    background-color: rgb(95, 116, 116);
+}
+
+.main-links {
+    display: flex;
+    margin-left: 1009px;
+    margin-top: -60px;
+}
+
+.links {
+    background-color: black;
+    width: 1700px;
+    margin-left: -20px;
+    padding: 8px 12px 18px 12px;
+    margin-top: -10px;
+    position: sticky;
+    top: 0;
+}
+
+
+/*FORMS*/
+
+form {
+    margin-left: 300px;
+    margin-top: 7px;
+    background-color: whitesmoke;
+    width: max-content;
+    padding: 30px 130px 50px 280px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.number {
+    margin-left: -200px;
+}
+
+.option {
+    margin-left: -100px;
+}
+
+.radio {
+    margin-left: -185px;
+}
+
+.checkbox {
+    margin-left: -200px;
+}
+
+.textarea {
+    margin-left: -230px;
+}
+
+input,
+select,
+textarea {
+    margin-left: 30px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-left: 70px;
+}
+
+.selector,
+.emotion {
+    margin-top: -18px;
+}
+
+input:not(#submit) {
+    padding: 7px 100px 7px 10px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+textarea {
+    padding: 0 150px 40px 0;
+}
+
+select {
+    padding: 10px 50px 10px 0;
+    border-radius: 4px;
+}
+
+select:focus {
+    background-color: lightgray;
+}
+
+p {
+    font-size: 22px;
+    margin-left: -52px;
+}
+
+#submit {
+    font-size: larger;
+    padding: 10px 10px 10px 10px;
+    margin-left: 80px;
+    background-color: rgb(93, 134, 255);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    opacity: 0.6;
+}
+
+h1:not(form) {
+    font-size: 52px;
+    text-align: center;
+}

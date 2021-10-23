@@ -1,0 +1,410 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/2773373.jpg);
+    background-blend-mode: saturation;
+}
+
+
+/*LINK*/
+
+.link a {
+    float: right;
+    transform: translate(760px, -1670px);
+    text-decoration: none;
+    background-color: rgb(6, 124, 6);
+    width: max-content;
+    padding: 15px 20px 15px 20px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/*SECTION-PART*/
+
+section h3 ion-icon {
+    font-size: 27px;
+    margin-left: -10px;
+}
+
+section h3 {
+    font-size: 30px;
+    white-space: wrap;
+    color: white;
+}
+
+section .editor,
+.knowledge {
+    color: darkgray;
+}
+
+section .coding {
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, green, orange, purple, #1da1f2);
+    border-image-slice: 1;
+    padding: 15px 0 15px 30px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+}
+
+h4 {
+    color: white;
+    line-height: 30px;
+    border-top: 3px solid rgb(20, 172, 20);
+    border-bottom: 3px solid orange;
+}
+
+h4 .search-pens:hover,
+.challenge:hover,
+.spark:hover,
+h5:hover {
+    background-color: black;
+    padding: 5px 50px 7px 10px;
+    border-radius: 5px;
+}
+
+h5 {
+    color: white;
+    font-size: 18px;
+}
+
+.market {
+    background-image: url(https://images.freeimages.com/images/premium/previews/5170/51701084-abstract-perspective-black-background-with-3d-cubes.jpg);
+    background-repeat: no-repeat;
+    height: 50px;
+    color: white;
+    padding: 30px 0 30px 30px;
+}
+
+.knowledge:hover {
+    color: white;
+}
+
+h5 sup {
+    background-color: orange;
+    color: black;
+    padding: 3px 3px 0 3px;
+    border-radius: 3px;
+}
+
+section {
+    background: rgba(138, 136, 136, 0.103);
+    width: max-content;
+    height: 900px;
+    padding: 20px;
+    margin-left: -10px;
+    margin-top: -40px;
+    border-radius: 0 20px;
+    box-shadow: 3px 3px 10px rgba(75, 75, 75, 0.103), -3px 3px 10px rgba(75, 75, 75, 0.103);
+}
+
+
+/*SEARCH FORM*/
+
+.search {
+    transform: translate(240px, -900px);
+    font-size: 30px;
+}
+
+.search ion-icon {
+    transform: translate(-34em, 8px);
+    color: darkgray;
+}
+
+.search input {
+    padding: 10px 700px 10px 70px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    background: rgba(160, 160, 160, 0.103);
+    color: darkgray;
+}
+
+
+/*TWITTER, FACEBOOK AND GITHUB*/
+
+form .website-form input:not(input[type="submit"], #email) {
+    padding: 15px 130px 15px 70px;
+    border: 0;
+    border-radius: 6px;
+    opacity: 1.5;
+    font-size: 15px;
+}
+
+form .website-form label {
+    color: white;
+}
+
+form .website-form ion-icon {
+    color: white;
+    font-size: 30px;
+    transform: translate(50px, 8px);
+}
+
+form .website-form #twitter {
+    background-color: #1da1f2;
+}
+
+form .website-form #facebook {
+    background-color: #3b5998;
+}
+
+form .website-form #github {
+    background-color: #8e9092;
+}
+
+form .website-form p {
+    margin-left: 32px;
+    font-size: 20px;
+    color: darkgray;
+}
+
+
+/*FORM-GROUP*/
+
+.form-group {
+    margin-left: 280px;
+    color: white;
+    margin-top: -40px;
+}
+
+.form-group h1 {
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-group p {
+    font-size: 20px;
+    margin-top: -40px;
+}
+
+
+/*HOVERED*/
+
+form .website-form #twitter:hover,
+form .website-form #facebook:hover,
+form .website-form #github:hover {
+    background-color: #acb2b9;
+}
+
+
+/*SECOND-FORM*/
+
+form .website-form .second-form {
+    margin-left: 30px;
+}
+
+form .website-form .second-form input:nth-child(1) {
+    font-size: 15px;
+    border-radius: 10px;
+    border: 0;
+    padding: 15px 0 15px 35px;
+    background: rgb(48, 48, 48);
+    color: white;
+    font-size: 15px;
+}
+
+form .website-form .second-form input[type="submit"] {
+    padding: 20px 35px 20px 35px;
+    border: 0;
+    font-size: 20px;
+    background-color: rgb(9, 148, 9);
+    color: white;
+    border-radius: 10px;
+}
+
+form .website-form .second-form input[type="submit"]:hover {
+    background-color: rgb(3, 93, 3);
+}
+
+form .website-form .second-form p {
+    margin-left: -10px;
+    font-size: 15px;
+}
+
+form .website-form .second-form p span {
+    color: rgb(123, 208, 236);
+    font-size: 20px;
+}
+
+form .website-form .second-form input {
+    background-color: rgba(197, 197, 197, 0.87);
+}
+
+form .website-form .second-form label {
+    color: darkgray;
+}
+
+aside {
+    background-color: white;
+    width: max-content;
+    padding: 20px 10px 10px 10px;
+    margin-left: -28px;
+}
+
+
+/*GENERAL*/
+
+form {
+    transform: translate(400px, -800px);
+}
+
+
+/*RIGHT-SIDE-FORM*/
+
+.website-form .right-side-form {
+    margin-left: 430px;
+    margin-top: -900px;
+    background-color: #29282877;
+    width: max-content;
+    padding: 10px 20px 68px 20px;
+}
+
+.website-form .right-side-form p {
+    margin-top: 50px;
+    margin-left: -3px;
+    background-color: rgb(246, 238, 146);
+    width: max-content;
+    padding: 20px 20px 20px 20px;
+    color: black;
+    border-radius: 10px;
+}
+
+.website-form .right-side-form p span {
+    color: rgb(99, 99, 255);
+    border-bottom: 1px dotted black;
+}
+
+.website-form .right-side-form h6:nth-child(1).slow,
+.fast {
+    margin-left: 90px;
+}
+
+.website-form .right-side-form h6:nth-child(1).fast,
+.slow {
+    margin-left: 150px;
+}
+
+.website-form .right-side-form input {
+    display: block;
+    transform: translate(200px, -90px);
+    line-height: 25px;
+}
+
+.website-form .right-side-form h3 {
+    border-bottom: 2px solid white;
+    width: 220px;
+    color: white;
+}
+
+.website-form .right-side-form .block {
+    margin-top: -28px;
+}
+
+.website-form .right-side-form h6 {
+    font-size: 15px;
+    line-height: 23px;
+    color: darkgray;
+}
+
+.website-form .right-side-form .up-items {
+    margin-top: -60px;
+}
+
+.website-form .right-side-form .second-up-items {
+    margin-top: -60px;
+}
+
+
+/*TOTAL*/
+
+form {
+    background-color: #555a75;
+    width: max-content;
+    padding: 70px 0 0 30px;
+    border-top: 5px solid transparent;
+    border-image: linear-gradient(to right, green, orange, purple, #1da1f2);
+    border-image-slice: 1;
+}
+
+
+/*CREATING-ANIMATION*/
+
+section .market {
+    position: relative;
+    animation: fadeIn 30s infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    transition: background-image 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        background-image: url(https://img.freepik.com/free-vector/gradient-3d-shapes-background_52683-11599.jpg?size=626&ext=jpg);
+        background-repeat: no-repeat;
+        height: 50px;
+        color: white;
+        padding: 30px 0 30px 30px;
+    }
+    20% {
+        background-image: url(https://cdn3.vectorstock.com/i/1000x1000/78/02/awesome-cube-gradient-logo-design-vector-29447802.jpg);
+        background-repeat: no-repeat;
+        height: 50px;
+        color: white;
+        padding: 30px 0 30px 30px;
+    }
+    50% {
+        background-image: url(https://previews.123rf.com/images/al4k/al4k1711/al4k171100101/90266190-vector-various-jewelry-silver-gold-pearl-gradients-colorful-various-angles-of-cube-tetrahedron-decor.jpg);
+        background-repeat: no-repeat;
+        height: 50px;
+        color: white;
+        padding: 30px 0 30px 30px;
+    }
+    80% {
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/548/148/18/cube-geometry-gradient-4k-wallpaper-preview.jpg);
+        background-repeat: no-repeat;
+        height: 50px;
+        color: white;
+        padding: 30px 0 30px 30px;
+    }
+    100% {
+        background-image: url(https://images.freeimages.com/images/premium/previews/2655/2655572-cube-background.jpg);
+        background-repeat: no-repeat;
+        height: 50px;
+        color: white;
+        padding: 30px 0 30px 30px;
+    }
+}
+
+
+/*LAST-CODE*/
+
+.privacy-policy {
+    margin-left: 600px;
+    margin-top: -750px;
+    color: rgb(84, 183, 216);
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    background-color: rgb(55, 80, 80);
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    width: max-content;
+    color: white;
+    margin-left: -10px;
+}
+
+a:hover {
+    background-color: darkgray;
+}
+
+
+/*PLACEHOLDER*/
+
+.website-form input::placeholder {
+    color: white;
+}
